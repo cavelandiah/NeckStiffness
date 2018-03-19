@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ecoli="../Data/E.Coli/Escherichia_coli.HUSEC2011CHR1.dna.toplevel.fa"
+ngon="../Data/N.Gon/Neisseria_gonorrhoeae.NG-e03.04.dna.toplevel.fa"
+nmem="../Data/N.Men/Neisseria_meningitidis.ASM62659v1.dna.toplevel.fa"
