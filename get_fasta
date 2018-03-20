@@ -1,0 +1,17 @@
+$ cat test.fa
+>chr1
+AAAAAAAACCCCCCCCCCCCCGCTACTGGGGGGGGGGGGGGGGGG
+
+$ cat test.bed
+chr1 5 10
+
+$ bedtools getfasta -fi test.fa -bed test.bed
+>chr1:5-10
+AAACC
+
+# optionally write to an output file
+$ bedtools getfasta -fi test.fa -bed test.bed -fo test.fa.out
+
+$ cat test.fa.out
+>chr1:5-10
+AAACC
